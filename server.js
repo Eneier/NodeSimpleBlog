@@ -12,7 +12,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 const PORT = 3000;
-const db = 'mongodb+srv://Eneier:1902831983vtIpo@eneier01.582kn.mongodb.net/eneier-node?retryWrites=true&w=majority';
+const db = 'mongodb+srv://Eneier:PASSWORD@eneier01.582kn.mongodb.net/eneier-node?retryWrites=true&w=majority';
 
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true }) //connection to mongo DV via mongoose
